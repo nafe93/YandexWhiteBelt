@@ -78,18 +78,18 @@ Date ParseDate(const string& date)
     bool flag = true;
 
     int year;
-    flag = flag && (date_stream >> year);
-    flag = flag && (date_stream.peek() == '-');
+    flag = bool(date_stream >> year);
+    flag = bool(date_stream.peek() == '-');
     date_stream.ignore(1);
 
     int month;
-    flag = flag && (date_stream >> month);
-    flag = flag && (date_stream.peek() == '-');
+    flag = bool(date_stream >> month);
+    flag = bool(date_stream.peek() == '-');
     date_stream.ignore(1);
 
     int day;
-    flag = flag && (date_stream >> day);
-    flag = flag && date_stream.eof();
+    flag = bool(date_stream >> day);
+    flag = bool(date_stream.eof());
 
     if (!flag)
     {
