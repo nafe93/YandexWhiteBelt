@@ -1,0 +1,3 @@
+/home/C++/Coursera/week_5/Yandex/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/C++/Coursera/week_5/Yandex/cmake-build-debug/CMakeFiles/Yandex.dir
+/home/C++/Coursera/week_5/Yandex/cmake-build-debug/CMakeFiles/edit_cache.dir

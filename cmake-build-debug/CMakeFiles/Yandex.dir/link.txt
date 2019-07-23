@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Yandex.dir/main.cpp.o  -o Yandex 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/C++/Coursera/week_5/Yandex/main.cpp
+iostream
+-
+iomanip
+-
+sstream
+-
+string
+-
+vector
+-
+map
+-
+set
+-
+
